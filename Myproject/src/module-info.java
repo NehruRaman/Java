@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author nehru
+ *
+ */
+module Myproject {
+}
