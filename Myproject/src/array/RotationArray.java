@@ -11,7 +11,7 @@ public class RotationArray {
         RotationArray na = new RotationArray();
         na.rotation();
 	}
-
+	
 	static int[] scanner() {
 		Scanner na = new Scanner(System.in);
 		System.out.println("enter Size of Array 2 and above");

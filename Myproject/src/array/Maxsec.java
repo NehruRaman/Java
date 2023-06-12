@@ -17,7 +17,7 @@ public class Maxsec {
 		     System.out.println("enter the elements");
 		     for(int i = 0;i<array.length;i++) {
 		    	 array[i] = na.nextInt();
-		    	 
+		    na.close();	 
 		     }return array;
 		}
 	   void max() {

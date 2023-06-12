@@ -11,10 +11,11 @@ public class DuplicateElement {
        na.duplicateElement();
 	}
 	public static int []sizeofarray() {
-		Scanner na = new Scanner(System.in);
+	Scanner na = new Scanner(System.in);
 	System.out.println("enter the size Of array");
       int size = na.nextInt();
       array = new int[size];
+      na.close();
       return  array;
 	}
 	public static void insert()
@@ -33,6 +34,7 @@ public class DuplicateElement {
 
 		}
 	System.out.println();
+	na.close();
 	}
 	public void duplicatArray() {
 	for(int i=0;i<array.length;i++)
