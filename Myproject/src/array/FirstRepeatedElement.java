@@ -10,7 +10,7 @@ public class FirstRepeatedElement {
 	}
 
 	public void first_Repeated_Elements() {
-		int array[] = { 2, 4, 5, 6, 7, 8, 9 };
+		int array[] = { 2, 4, 5, 2, 7, 2, 9 };
 		boolean flag = false;
 		for (int i = 0; i < array.length; i++) {
 			

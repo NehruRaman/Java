@@ -4,7 +4,7 @@ public class MergeTwoAarray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int [] array = {7,3,9,2,3,2,10};
+		int [] array = {7,3,9,2,3,10};
 		int [] array1 = {3,1,9,5,6,4,2};
 		int [] result = new int[array.length+array1.length];
 		

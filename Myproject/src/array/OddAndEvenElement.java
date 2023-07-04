@@ -12,23 +12,25 @@ public class OddAndEvenElement {
 	    System.out.print(array[i]+" ");
 		}
 		//last Element copy to temp variable
-		System.out.println("\nodd element array ");
+		System.out.println("\neven element array ");
+		int count = 0;
 		for(int j=0;j<array.length;j++)
 		{
 		
 			if(array[j]%2 == 0)
 			{
-				 System.out.print(array[j]+" ");
+				System.out.println("\neven element array "+array[j]);
 			}
 		
 			
 		}
-		System.out.println("\neven element array ");
+		System.out.println("\nodd element array ");
+		
 		for(int i=0;i<array.length;i++)
 		{
 			if(array[i]%2==1)
 			{
-				 System.out.print(array[i]+" ");
+				System.out.println("\nodd element array "+array[i]);
 			} 
 	    
 		}

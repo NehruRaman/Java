@@ -11,7 +11,7 @@ public class SingleDigitArray {
 		
 		SingleDigitArray.scanner();
 		na.single_DigitArray();
-
+  
 	}
 	static void scanner() {
 		 Scanner na = new Scanner(System.in);

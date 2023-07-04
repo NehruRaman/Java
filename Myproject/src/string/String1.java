@@ -47,8 +47,8 @@ public class String1 {
 		String str1 = "Nehru";
 		String str2 = "Archana";
 		String str3 = "hai"; 
-		String1 na = new String1(); 
-		String1 na1 = new String1(); 
+		
+		//String1 na1 = new String1(); 
 		
 //			System.out.println(na1==na);  	
 		
@@ -74,9 +74,9 @@ public class String1 {
 		String s1 = new String("ratan");
 		String s2 = new String("durga");
 		String s3 = new String("hai");
-		System.out.println(str1.equals(str2));
-		System.out.println(str1.equals(str3));
-		System.out.println(str2.equals(str3));
+		System.out.println(s1.equals(s2));
+		System.out.println(s1.equals(s3));
+		System.out.println(s2.equals(s3));
 		
 	}
 

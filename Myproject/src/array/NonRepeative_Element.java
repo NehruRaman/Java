@@ -9,7 +9,7 @@ public class NonRepeative_Element {
 
 	}
 	public void nonRepeated_Elements() {
-		int array[] = { 2, 4, 2, 3, 4,3, 2 };
+		int array[] = { 2, 4, 2, 3, 4,3, 1 };
 		for (int i = 0; i < array.length; i++) {
 		
                 int count=0;
