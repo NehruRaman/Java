@@ -59,6 +59,8 @@ public class ArraysDemo implements Comparable<Object> {
 //            	  System.out.println("both  are  same"); 
 //         		 
 //              }
+              
+              
 	}
 
 	@Override
